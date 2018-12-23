@@ -26,9 +26,11 @@ Simply connect your camera via USB or even via wifi to the computer running this
 
 photo-booth also provides a web application by running a webserver. Every newly taken photo gets immediately pushed to the webapp. From there it's easy for your guests to download their photos. There's also the option to leave a e-mail address for sending the photos afterwards. You only have to provide a Wi-Fi hotspot.
 
-Because of the use of gphoto2 it works with nearly any camera like plug and play. A list of supported devices can be found [here](http://gphoto.org/proj/libgphoto2/support.php).
+Because of the use of gphoto2 it works with nearly any camera like plug and play. A list of supported devices can be found [here](http://gphoto.org/proj/libgphoto2/support.php). __Please 
 
-Note: photo-booth does **not** work with Raspberry Pi camera module!
+#### Notable Unsupported Devices:
+1. Raspberry Pi Camera Module (IS NOT SUPPORTED).
+2. Webcams: such as the one built into your laptop or Logitech USB Webcams (ARE NOT SUPPORTED).
 
 ## Installation
 
